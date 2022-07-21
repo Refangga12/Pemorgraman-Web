@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TugasAkhir</title>
+  <link rel="stylesheet" type="text/css" href="stle.css">
+  <script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+  <form action="" method="post">
+    <label for="command">Nama Kamu</label><br>
+    <input type="text" name="command"><br>
+    <input type="submit" value="kirim">
+  </form>
+  <h1><b><center><font face = "Comic sans MS">KALKULATOR INPUT OUTPUT & KALENDER</font></center></b></h1>
+  <div class="wrapper">
+    <div class="calculator">
+      <form name="form">
+        <input type="text" class="textView"name="textView">
+      </form>
+      <table>
+        <tr>
+          <td><input type="button" class="button" value="C" onclick="c()"></td>
+          <td><input type="button" class="button del" value="Del" onclick="del()"></td>
+          <td><input type="button" class="button" value="x" onclick="insert('*')"></td>
+          <td><input type="button" class="button" value="/" onclick="insert('/')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
+          <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
+          <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
+          <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
+          <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
+          <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
+          <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
+        </tr>
+        <tr>
+          <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
+          <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
+          <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
+          <td rowspan="2"><input type="button" class="button equal" value="=" onclick="equal()"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" class="button zero" value="0" onclick="insert(0)"></td>
+          <td><input type="button" class="button" value="." onclick="insert('.')"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <table border="2" width="50" height="250">
+      <tr height="40">
+        <td><b><font size="5">Senin</font></td>
+        <td><b><font size="5">Selasa</font></td>
+        <td><b><font size="5">Rabu</font></td>
+        <td><b><font size="5">Kamis</font></td>
+        <td><b><font size="5">Jumat</font></td>
+        <td><b><font size="5">Sabtu</font></td>
+        <td width="100"><b><font size="5" color="red">Minggu</font></td>
+        </tr>
+ 
+        <tr>
+        <td><font size="5" color="grey">27</font></td>
+        <td><font size="5" color="grey">28</font></td>
+        <td><font size="5" color="grey">29</font></td>
+        <td><font size="5" color="grey">30</font></td>
+        <td><font size="5">1</font></td>
+        <td><font size="5">2</font></td>
+        <td><font size="5">3</font></td>
+        </tr>
+ 
+        <tr>
+        <td><font size="5">4</font></td>
+        <td><font size="5">5</font></td>
+        <td><font size="5">6</font></td>
+        <td><font size="5">7</font></td>
+        <td><font size="5">8</font></td>
+        <td><font size="5">9</font></td>
+        <td><font size="5">10</font></td>
+        </tr>
+ 
+        <tr>
+        <td><font size="5">11</font></td>
+        <td><font size="5">12</font></td>
+        <td><font size="5">13</font></td>
+        <td><font size="5">14</font></td>
+        <td><font size="5">15</font></td>
+        <td><font size="5">16</font></td>
+        <td><font size="5">17</font></td>
+        </tr>
+ 
+         <tr>
+         <td><font size="5">18</font></td>
+         <td><font size="5">19</font></td>
+         <td><font size="5">20</font></td>
+         <td><font size="5">21</font></td>
+         <td><font size="5">22</font></td>
+         <td><font size="5">23</font></td>
+         <td><font size="5">24</font></td>
+         </tr>
+         
+         <tr>
+         <td><font size="5">25</font></td>
+         <td><font size="5">26</font></td>
+         <td><font size="5">27</font></td>
+         <td><font size="5">28</font></td>
+         <td><font size="5">29</font></td>
+         <td><font size="5">30</font></td>
+         <td><font size="5">31</font></td>
+         </tr>
+         
+         <tr>
+         <td><font size="5" color="grey">1</font></td>
+         <td><font size="5" color="grey">2</font></td>
+         <td><font size="5" color="grey">3</font></td>
+         <td><font size="5" color="grey">4</font></td>
+         <td><font size="5" color="grey">5</font></td>
+         <td><font size="5" color="grey">6</font></td>
+         <td><font size="5" color="grey">7</font></td>
+         </tr>
+ 
+ </table>
+
+</body>
+</html>
